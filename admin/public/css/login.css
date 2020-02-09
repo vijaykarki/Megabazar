@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.forgetpassword{
+    text-decoration: underline !important;
+}
+body{
+    position: relative;
+    /* background-color: #0093b4b6; */
+}
+.imagecontainer{
+    /* overflow: hidden; */
+    width: 100%;
+    height: 685px;
+    background-color: #0093b4;
+}
+/* .imagecontainer img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+ } */
+ 
+.loginform{
+    position: absolute;
+    box-shadow: 0 0 15px 15px rgb(0, 0, 0);
+    top: 210px;
+    background-color: #fff;
+     left: 30%;
+     border-radius: 10px;
+} 
+
+
+.loginform form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.loginform form label{
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.loginform form input{
+    padding: 10px;
+    height: 4vh;
+    border-radius: 10px;
+    width: 400px;
+}
+.loginform form input[type="submit"]{
+    height: 8vh;
+    padding: 5px;
+    margin: 10px;
+    background-color: #0093b4;
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 2em;
+}
+.loginform form input[type="submit"]:hover{
+    cursor: pointer;
+}
+.loginform form a{
+    font-size: 1.2em;
+    align-self: center;
+
+}

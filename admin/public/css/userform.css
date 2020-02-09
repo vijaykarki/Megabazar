@@ -1,0 +1,90 @@
+/* ADD SECTION */
+.form-content{
+    background-color: #e5e5e5;
+    width: 80%;
+    height: 588px;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    justify-content: flex-start;
+    align-content: space-around; */
+}
+/* .form-content .user-add-form{
+    padding: 10px;
+    width: 30%;
+} */
+.form-content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 10px;
+}
+
+.form-content form label{
+    font-size: 1.5em;
+    font-weight: bold;  
+    padding: 10px 10px 10px 0;
+}
+.form-content form input{
+    font-size: 0.8em;
+    padding: 10px;  
+    width: 200px;
+    border-radius: 3px;
+}
+.form-content form input[type="submit"]{
+    font-size: 1em;
+    /* width: 130px; */
+    font-weight: bold;  
+    margin: 5px 0;
+    /* padding: 15px; */
+    background-color: #0093b4;
+    border-radius: 10px;
+}
+.form-content form input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+/* .form-content .user-delete-form form select{  
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.form-content .user-delete-form form input[type="submit"]{
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #0093b4;
+    border-radius: 10px;
+}*/
+.form-content .user-remove h2{
+    font-size: 2em;
+} 
+
+.form-content .user-remove{
+    margin: 100px 200px;
+}
+.form-content .user-remove table {
+    padding: 10px;
+}
+
+.form-content .user-remove table tr th{
+    padding:0 50px;
+    font-size: 1.5em;
+}
+.form-content .user-remove table tr td{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+.form-content .user-remove table tr td button{
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: #0093b4;
+    border-radius: 5px;
+}
+.form-content .user-remove table tr td button:hover{
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.sidebar .category{
+    background-color: #71b2c1;
+    font-size: 1.5em;
+    padding: 10px;
+    color: #fff;
+
+}
+.sidebar .menus{
+    padding: 20px;
+    position: relative;
+    display: inline;
+}
+.sidebar .menus ul{
+    list-style-type: none;
+}
+.sidebar .menus ul li{
+   padding: 10px;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+.sidebar .menus ul li.adduser ul li{
+    display: none;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    z-index: 1;
+ }
+ .sidebar .menus ul li.pverify ul li{
+    display: none;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    z-index: 1;
+ }
+.sidebar .menus .adduser:hover .userchange li{
+    display: block;
+    color: #71b2c1;
+    cursor: pointer;
+}
+.sidebar .menus .pverify:hover .verifyproduct li{
+    display: block;
+    color: #71b2c1;
+    cursor: pointer;
+}

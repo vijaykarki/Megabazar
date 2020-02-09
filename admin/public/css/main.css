@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-part{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.body-part .side{
+    width: 20%;
+}
+.body-part .content{
+    width: 80%;
+    background-color: #e5e5e5;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 588px;
+}
+.body-part .content .card{
+    width: 300px;
+    height: 230px;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    margin: 30px 40px;
+}
+.body-part .content .card h2{
+    padding: 10px 20px;
+}
